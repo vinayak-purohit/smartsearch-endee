@@ -1,0 +1,182 @@
+[
+  {
+    "id": "doc_001",
+    "title": "Introduction to Machine Learning",
+    "content": "Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve their performance over time without being explicitly programmed. It relies on algorithms that identify patterns and make decisions with minimal human intervention. The three main types are supervised learning, unsupervised learning, and reinforcement learning.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_002",
+    "title": "Neural Networks Explained",
+    "content": "Neural networks are computational models inspired by the human brain. They consist of layers of interconnected nodes called neurons. Deep learning uses neural networks with many hidden layers to learn complex representations of data. Applications include image recognition, natural language processing, and speech recognition.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_003",
+    "title": "What is a Vector Database?",
+    "content": "A vector database stores data as high-dimensional vectors, enabling fast similarity search. Unlike traditional databases that search by exact match, vector databases use approximate nearest neighbor (ANN) algorithms like HNSW to find semantically similar items. They are essential for AI applications like semantic search, RAG pipelines, and recommendation engines.",
+    "category": "Databases"
+  },
+  {
+    "id": "doc_004",
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "content": "RAG is an AI architecture that combines information retrieval with text generation. Instead of relying solely on parametric knowledge stored in model weights, RAG retrieves relevant documents from an external knowledge base and uses them as context for generating answers. This reduces hallucinations and allows LLMs to answer questions about private or updated data.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_005",
+    "title": "Transformer Architecture",
+    "content": "The Transformer is a deep learning architecture introduced in 2017 that revolutionized natural language processing. It uses self-attention mechanisms to process all tokens in parallel rather than sequentially. Models like BERT, GPT, and T5 are based on the Transformer architecture and power most modern language AI systems.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_006",
+    "title": "Semantic Search vs Keyword Search",
+    "content": "Keyword search matches exact words or phrases in documents, while semantic search understands the meaning and intent behind a query. Semantic search uses dense vector embeddings to find conceptually related results even when exact words don't match. This makes it far superior for natural language queries and understanding user intent.",
+    "category": "Search"
+  },
+  {
+    "id": "doc_007",
+    "title": "Sentence Transformers and Embeddings",
+    "content": "Sentence Transformers are models that convert sentences into dense vector representations called embeddings. These embeddings capture the semantic meaning of text so that similar sentences have similar vectors. Models like all-MiniLM-L6-v2 produce 384-dimensional embeddings and are widely used for semantic search and clustering tasks.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_008",
+    "title": "HNSW: Hierarchical Navigable Small World",
+    "content": "HNSW is a graph-based algorithm for approximate nearest neighbor (ANN) search. It builds a multi-layer graph structure where each layer becomes progressively sparser, allowing fast traversal. HNSW offers excellent trade-offs between search speed and accuracy and is used in many production vector databases including Endee.",
+    "category": "Algorithms"
+  },
+  {
+    "id": "doc_009",
+    "title": "Large Language Models (LLMs)",
+    "content": "Large Language Models are neural networks trained on vast amounts of text data using self-supervised learning. They can generate coherent text, answer questions, write code, and perform many language tasks. Examples include GPT-4, Claude, Gemini, and LLaMA. They work by predicting the next token given a context window of previous tokens.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_010",
+    "title": "Cosine Similarity in Vector Search",
+    "content": "Cosine similarity measures the angle between two vectors, returning a value between -1 and 1. In vector search, it indicates how semantically similar two texts are regardless of their magnitude. A cosine similarity of 1 means identical direction (very similar), while 0 means perpendicular (unrelated). It is the most common distance metric in semantic search.",
+    "category": "Math/Algorithms"
+  },
+  {
+    "id": "doc_011",
+    "title": "Docker and Containerization",
+    "content": "Docker is an open platform for developing, shipping, and running applications in containers. Containers package an application and all its dependencies into a standardized unit that can run consistently across different environments. Docker Compose allows defining and running multi-container applications using a YAML configuration file.",
+    "category": "DevOps"
+  },
+  {
+    "id": "doc_012",
+    "title": "Python for Data Science",
+    "content": "Python is the dominant language for data science and machine learning due to its simplicity and rich ecosystem. Key libraries include NumPy for numerical computation, Pandas for data manipulation, Scikit-learn for classical ML, and PyTorch/TensorFlow for deep learning. Python's readability and extensive community support make it ideal for research and production.",
+    "category": "Programming"
+  },
+  {
+    "id": "doc_013",
+    "title": "REST APIs and Web Services",
+    "content": "REST (Representational State Transfer) is an architectural style for building web APIs. RESTful services use standard HTTP methods like GET, POST, PUT, and DELETE. They are stateless, meaning each request contains all information needed to process it. Flask and FastAPI are popular Python frameworks for building REST APIs.",
+    "category": "Web Development"
+  },
+  {
+    "id": "doc_014",
+    "title": "Endee Vector Database Features",
+    "content": "Endee is a high-performance open-source vector database capable of handling up to 1 billion vectors on a single node. It supports multiple distance metrics including cosine, dot product, and L2. Endee offers INT8 and FP16 precision options, HNSW indexing, and is available as both a self-hosted solution and a managed cloud service.",
+    "category": "Databases"
+  },
+  {
+    "id": "doc_015",
+    "title": "Natural Language Processing (NLP)",
+    "content": "Natural Language Processing is a branch of AI focused on enabling computers to understand, interpret, and generate human language. Core NLP tasks include tokenization, named entity recognition, sentiment analysis, machine translation, and question answering. Modern NLP is dominated by transformer-based models pre-trained on large text corpora.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_016",
+    "title": "Recommendation Systems",
+    "content": "Recommendation systems suggest relevant items to users based on their preferences and behavior. Collaborative filtering identifies similar users or items, while content-based filtering uses item features. Modern recommenders use embeddings and vector similarity search to find semantically similar items at scale, enabling personalized experiences.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_017",
+    "title": "Data Preprocessing and Feature Engineering",
+    "content": "Data preprocessing transforms raw data into a clean format suitable for machine learning. Steps include handling missing values, normalizing features, encoding categorical variables, and removing outliers. Feature engineering creates new informative features from raw data to improve model performance.",
+    "category": "Data Science"
+  },
+  {
+    "id": "doc_018",
+    "title": "Model Evaluation Metrics",
+    "content": "Evaluating machine learning models requires appropriate metrics. For classification: accuracy, precision, recall, F1-score, and AUC-ROC. For regression: MSE, RMSE, MAE, and R². For information retrieval: precision@k, recall@k, MRR, and NDCG. Choosing the right metric depends on the problem and business requirements.",
+    "category": "Data Science"
+  },
+  {
+    "id": "doc_019",
+    "title": "Agentic AI and Autonomous Systems",
+    "content": "Agentic AI refers to systems that can autonomously plan, reason, and take actions to achieve goals. These agents use LLMs as a reasoning engine combined with tools like web search, code execution, and database access. Frameworks like LangChain and AutoGen enable building multi-step agentic workflows with memory and tool use.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_020",
+    "title": "Kubernetes and Container Orchestration",
+    "content": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications. It groups containers into pods and manages their lifecycle across a cluster of machines. Kubernetes features include auto-scaling, load balancing, self-healing, and rolling updates for production-grade reliability.",
+    "category": "DevOps"
+  },
+  {
+    "id": "doc_021",
+    "title": "Prompt Engineering Techniques",
+    "content": "Prompt engineering is the practice of designing inputs to guide LLM outputs. Techniques include few-shot prompting (providing examples), chain-of-thought (step-by-step reasoning), role prompting (assigning a persona), and retrieval augmented prompting (providing retrieved context). Good prompts significantly improve LLM accuracy and reliability.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_022",
+    "title": "Graph Neural Networks (GNNs)",
+    "content": "Graph Neural Networks are deep learning models designed to work with graph-structured data. They operate by aggregating information from neighboring nodes to learn node and graph-level representations. GNNs are used in drug discovery, social network analysis, knowledge graphs, and fraud detection.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_023",
+    "title": "Microservices Architecture",
+    "content": "Microservices is an architectural style where an application is built as a collection of small, independently deployable services. Each service handles a specific business capability and communicates via APIs. Benefits include independent scaling, technology diversity, and fault isolation. Kubernetes is commonly used to orchestrate microservices.",
+    "category": "Software Architecture"
+  },
+  {
+    "id": "doc_024",
+    "title": "CI/CD Pipelines",
+    "content": "Continuous Integration and Continuous Deployment automate the software delivery process. CI automatically builds and tests code changes when pushed to version control. CD extends this by automatically deploying to staging or production. Tools like GitHub Actions, Jenkins, and GitLab CI are commonly used to build CI/CD pipelines.",
+    "category": "DevOps"
+  },
+  {
+    "id": "doc_025",
+    "title": "Dimensionality Reduction Techniques",
+    "content": "Dimensionality reduction reduces the number of features in a dataset while preserving important information. Principal Component Analysis (PCA) projects data onto principal components. t-SNE and UMAP are nonlinear techniques used for visualization. Dimensionality reduction speeds up training, reduces overfitting, and enables visualization of high-dimensional data.",
+    "category": "Data Science"
+  },
+  {
+    "id": "doc_026",
+    "title": "Transfer Learning in Deep Learning",
+    "content": "Transfer learning uses a model pre-trained on one task as a starting point for a different but related task. It significantly reduces training time and data requirements. Fine-tuning updates the pre-trained model's weights on the new task. This approach is foundational to modern NLP where models like BERT are fine-tuned for downstream tasks.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_027",
+    "title": "Cloud Computing Fundamentals",
+    "content": "Cloud computing delivers computing resources like servers, storage, databases, and software over the internet on a pay-as-you-go basis. The main service models are IaaS (infrastructure), PaaS (platform), and SaaS (software). Major providers include AWS, Google Cloud, and Microsoft Azure. Cloud enables scalability, flexibility, and reduced infrastructure overhead.",
+    "category": "Cloud"
+  },
+  {
+    "id": "doc_028",
+    "title": "Attention Mechanism in Transformers",
+    "content": "The attention mechanism allows models to focus on relevant parts of the input when producing output. Self-attention computes relationships between all positions in a sequence simultaneously. Multi-head attention runs multiple attention operations in parallel, capturing different types of relationships. This enables transformers to understand long-range dependencies in text.",
+    "category": "AI/ML"
+  },
+  {
+    "id": "doc_029",
+    "title": "Database Indexing Strategies",
+    "content": "Database indexes speed up data retrieval at the cost of additional storage and write overhead. B-tree indexes work well for range queries and equality checks. Hash indexes are fast for exact lookups. In vector databases, HNSW and IVF indexes enable fast approximate nearest neighbor search over high-dimensional embeddings.",
+    "category": "Databases"
+  },
+  {
+    "id": "doc_030",
+    "title": "Fine-tuning vs RAG for LLMs",
+    "content": "Fine-tuning updates a model's weights on domain-specific data, while RAG retrieves external knowledge at inference time. Fine-tuning is good for style and format adaptation but requires retraining for new data. RAG is better for factual grounding and dynamic knowledge updates. In practice, combining both approaches often yields the best results.",
+    "category": "AI/ML"
+  }
+]
